@@ -1,4 +1,3 @@
-import 'package:examen_app/intro.dart';
 import 'package:examen_app/welcome.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:examen_app/todoliste.dart';
-import 'package:examen_app/widgets/list.dart';
 import 'package:flutter/material.dart';
 
 class Welcome extends StatefulWidget {
