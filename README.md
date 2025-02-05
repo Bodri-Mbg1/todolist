@@ -8,3 +8,7 @@ Fonctionnalités clés :
   - Affichage en temps réel : Toutes vos tâches sont synchronisées en temps réel grâce à Firebase, vous permettant d'accéder à vos     informations depuis n'importe quel appareil.
 
 L'application est conçue pour être simple à utiliser et vous permettre de rester concentré et organisé. Ajoutez, modifiez ou supprimez vos tâches facilement et gérez votre journée efficacement.
+
+![Screenshot_1738770806](https://github.com/user-attachments/assets/0d08f735-a055-4240-940e-27ee627bbd50)
+![Screenshot_1738770802](https://github.com/user-attachments/assets/7387b059-025c-4cd6-aff6-4d6317db011e)
+![Screenshot_1738770815](https://github.com/user-attachments/assets/6ee932ab-510a-4cb2-868e-c93de30b818f)
