@@ -146,7 +146,7 @@ class _TodolisteState extends State<Todoliste> {
                 child: Icon(IconsaxPlusLinear.clipboard_text,
                     color: Colors.blue, size: 40)),
             Text(
-              "All",
+              "ToDo List",
               style: GoogleFonts.lato(
                   fontSize: 30,
                   color: Colors.white,
