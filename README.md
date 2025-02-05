@@ -11,7 +11,11 @@ L'application est conçue pour être simple à utiliser et vous permettre de res
 
 ![Screenshot_1738770806](https://github.com/user-attachments/assets/0d08f735-a055-4240-940e-27ee627bbd50)
 Ici, vous pouvez ajouter une tâche en cliquant sur le bouton + en bas.
+
+
 ![Screenshot_1738770802](https://github.com/user-attachments/assets/7387b059-025c-4cd6-aff6-4d6317db011e)
 Ici la liste des tâches avec la possibilité de modifier, supprimer ou même de cocher si la tâche est déjà effectuée.
+
+
 ![Screenshot_1738770815](https://github.com/user-attachments/assets/6ee932ab-510a-4cb2-868e-c93de30b818f)
 Ici la modification des tâches.
