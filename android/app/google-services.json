@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9318324827",
+    "project_id": "todolist-e2d0b",
+    "storage_bucket": "todolist-e2d0b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9318324827:android:9ce46845baa58035803d7e",
+        "android_client_info": {
+          "package_name": "com.example.examen_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw-lWW6aANHy9pSyHUXS2xDG5ph85p1-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
