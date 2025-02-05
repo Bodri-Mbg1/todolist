@@ -10,6 +10,15 @@ class Intro extends StatefulWidget {
 class _IntroState extends State<Intro> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Scaffold(
+      backgroundColor: Colors.blue,
+      body: Center(
+        child: Text(
+          'ToDo-List',
+          style: TextStyle(
+              fontSize: 40, color: Colors.white, fontWeight: FontWeight.bold),
+        ),
+      ),
+    );
   }
 }

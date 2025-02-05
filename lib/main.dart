@@ -1,5 +1,5 @@
 import 'package:examen_app/intro.dart';
-import 'package:examen_app/todoliste.dart';
+import 'package:examen_app/welcome.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.montserratTextTheme(),
       ),
-      home: Todoliste(),
+      home: const Welcome(),
     );
   }
 }

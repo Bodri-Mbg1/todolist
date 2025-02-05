@@ -74,11 +74,20 @@ class _TodolisteState extends State<Todoliste> {
                   itemBuilder: (context, index) {
                     var task = tasks[index];
                     return ListTile(
+                      leading: Checkbox(
+                        value: task['isCompleted'],
+                        onChanged: (value) {
+                          firestoreService.updateTask(task.id, value!);
+                        },
+                      ),
                       title: Text(
                         task['title'],
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 21,
                           fontWeight: FontWeight.w900,
+                          decoration: task['isCompleted']
+                              ? TextDecoration.lineThrough
+                              : null, // 🏷️ Barre si complété
                         ),
                       ),
                       subtitle: Text(
@@ -101,12 +110,6 @@ class _TodolisteState extends State<Todoliste> {
                                 color: Colors.red),
                             onPressed: () =>
                                 _confirmDeleteTask(context, task.id),
-                          ),
-                          Checkbox(
-                            value: task['isCompleted'],
-                            onChanged: (value) {
-                              firestoreService.updateTask(task.id, value!);
-                            },
                           ),
                         ],
                       ),
@@ -176,6 +179,7 @@ class _TodolisteState extends State<Todoliste> {
             TextField(
               controller: descriptionController,
               maxLength: 100,
+              maxLines: 3,
               decoration: const InputDecoration(labelText: "Description"),
             ),
           ],
@@ -218,6 +222,7 @@ class _TodolisteState extends State<Todoliste> {
             TextField(
               controller: descriptionController,
               maxLength: 100,
+              maxLines: 3,
               decoration: const InputDecoration(labelText: "Description"),
             ),
           ],
